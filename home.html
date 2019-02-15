@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+        </script>
+       <!--  <script type="text/javascript">
+            $(document).ready(function(){
+            $('.btn').click(function(){
+            $('nav').toggleClass('active');
+            })
+            $('ul li').click(function(){
+            $(this).siblings().removeClass('active')
+            $(this).toggleClass('active')
+            })
+            })
+        </script> -->
+    </head>
+    <body>
+        <header>
+            <div class="logo">Carousel</div>
+                <div class="btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="link"><a href="#">Link</a></li>
+                        <li><a href="#" class="disabled">Disabled</a></li>
+                    </ul>
+                    <button class="seach-btn">Search</button>
+                    <input class="search-field" type="text" name="Search" placeholder="Search" />
+                </nav>
+        </header>
+        <!--slider-1-->
+        <div class="slider-container slider-container-01">
+            <div class="slider">
+                <div class="item-1">
+                    <h2 class="item-header">Example headline.</h2>
+                    <p class="item-para">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <button class="Slider-btn-1">Sing up today</button>
+                </div>
+                <div class="item-2">
+                    <h2 class="item-header">Another example headline.</h2>
+                    <p class="item-para">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <button class="Slider-btn-1">Lern more</button>
+                </div>
+                <div class="item-3">
+                    <h2 class="item-header">One more for good measure.</h2>
+                    <p class="item-para">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <button class="Slider-btn-1">Browse gallery</button>
+                </div>
+                
+            </div>
+            <div id="active">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+            </div>
+        </div>
+        <!--grid-round-1-->
+        <div class="wrapper round-img-container--outer">
+            <div class="round-img-container--inner">
+                <div class="round-img--single round-img--single-1 grid zero-pic-1">
+                    <div class="round-img round box-shadow--style-2"></div>
+                    <h2 class="round-img--heading">Heading</h2>
+                    <p class="round-img--text">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+                         Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, 
+                         vestibulum at eros. Praesent commodo cursus magna.</p>
+                    <a class="btn-secondary" href= "#">View detail &#187; </a>
+                </div>
+                <!--grid-round-2-->
+                <div class="round-img--single round-img--single-2 grid zero-pic-2">
+                    <div class="round-img round box-shadow--style-2"></div>
+                    <h2 class="round-img--heading">Heading</h2>
+                    <p class="round-img--text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, 
+                        eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. 
+                        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    <a class="btn-secondary" href="#">View detail &#187; </a>
+                </div>
+                <!--grid-round-3-->
+                <div class="round-img--single round-img--single-3 grid zero-pic-3">
+                    <div class="round-img round box-shadow--style-2"></div>
+                    <h2 class="round-img--heading">Heading</h2>
+                    <p class="round-img--text secondary-font">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, 
+                        egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus,
+                         tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet </p>
+                    <a class="btn-secondary" href="#">View detail &#187; </a>
+                </div>
+            </div>	
+        </div>
+        <div class="wrapper">
+            <hr class="hr-line"></hr>
+        </div>
+        <!--card-container-1-->
+        <div class="wrapper container card card-1">
+            <div class="base-heading card-heading card-heading-1">
+                <!-- <div class="box"></div> -->
+                <div class="box box-shadow--style-1">
+                    <img src='http://unsplash.it/500/500?random&gravity=center' alt=''/>
+                </div>
+                <div class="heading">
+                    <h1>First featurette heading.</h1> 
+                    <h2 class="headding-h2">It’ll blow your mind.</h2>
+                    <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+            </div>	
+        </div>
+        <!--card-container-2-->
+        <div class="wrapper">
+            <hr class="hr-line"></hr>
+        </div>
+        <div class="wrapper container card card-2">
+            <div class="base-heading card-heading card-heading-2">
+                <div class="box box-shadow--style-1">
+                    <img src='http://unsplash.it/500/500?random&gravity=east' alt=''/>
+                </div>
+                <div class="heading">
+                    <h1>Oh yeah, it’s that good.</h1> 
+                    <h2 class="headding-h2">See for yourself.</h2>
+                    <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum 
+                        id ligula porta felis euismod semper. 
+                        Praesent commodo cursus magna,
+                        vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+            </div>	
+        </div>
+        <div class="wrapper">
+            <hr class="hr-line"></hr>
+        </div>
+        <!--card-container-3-->
+        <div class="wrapper container card card-3">
+            <div class="base-heading card-heading card-heading-3">
+                <div class="box box-shadow--style-1">
+                    <img src='http://unsplash.it/500/500?random&gravity=west' alt=''/>
+                </div>
+                <div class="heading">
+                    <h1>And lastly, this one.</h1> 
+                    <h2 class="headding-h2">Checkmate.</h2>
+                    <p>Donec ullamcorper nulla non metus auctor fringilla.
+                         Vestibulum id ligula porta felis euismod semper. 
+                         Praesent commodo cursus magna, vel scelerisque nisl consectetur. 
+                         Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+            </div>	
+        </div>
+        <div class="wrapper">
+            <hr class="hr-line"></hr>
+        </div>
+        <!--fooder  -->
+        <div class="footer">
+            <p>© 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            <a href="#">back to top</a>
+        </div>
+    </body>
+</html>
